@@ -38,7 +38,7 @@ RESPONSE:
 }
 
 -- получить Bookmark (с комментариями) по Bookmark.url. Если такого ещё нет, не создавать.
-REQUEST: method GET http://bee:9001/api/v1/bookmarks/www-w3schools-com
+REQUEST: method GET http://bee:9001/api/v1/bookmarks/www-w3schools-com (IMPORTANT URL need to be appropriated format example (http://www.example.com -> www-example-com)
 
 RESPONSE:
 {
